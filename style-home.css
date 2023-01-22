@@ -1,0 +1,98 @@
+/* REFERENCIAR EL SELECTOR PARA EL CUERPO DE LA PAGINA */
+body{
+    
+}
+
+.titulo-principal{
+    padding-left: 30px;
+}
+
+/* REFERENCIAR UN SELECTOR DE IDENTIFICADOR */
+#banner{
+    width: 100%;
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 20px;
+}
+
+nav{
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 10px 0 15px;
+}
+
+nav a{
+    text-transform: uppercase; /* Cambiar letras a mayusculas */
+    color: #000000;
+    font-weight: bold; /* Negrita */
+    font-size: 22px; /* Tamaño letra */
+    text-decoration: none; /* Desactivar subrayado por defecto */
+}
+
+/* REFERENCIAR UNA SELECTOR DE CLASE  */
+.titulo-centralizado{
+    text-align: center;
+}
+
+/* REFERENCIAR UN SELECTOR DIRECTO DE TAG o DE ETIQUETA */
+p{
+    text-align: center;
+    /*background: #797575; */
+}
+
+em strong{
+    color: 000000;
+}
+
+/* REFERENCIAR UN SELECTOR DE IDENTIFICADOR */
+#mision{ 
+    font-size: 20px;
+}
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 30px;
+}
+
+/* REFERENCIAR UNA SELECTOR DE CLASE  */
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block; /* OCUPA EL ESPACIO SOLO DEL CONTENIDO  */
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.barrabanner{
+    display: inline-block; /* OCUPA EL ESPACIO SOLO DEL CONTENIDO  */
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    display:flex;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
