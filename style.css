@@ -375,4 +375,20 @@ p:first-line{
     .caja-opciones{
         display: flex;
     }
+
+    .productos{
+        display: grid;
+        width: auto;
+        padding: 50px;
+    }
+
+    .productos li{ 
+        margin-left: 5px;
+        margin-bottom: 8%;
+        width: auto;
+    }
+
+
+    
+    
 }
